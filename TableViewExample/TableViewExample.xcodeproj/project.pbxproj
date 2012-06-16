@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D3DC634158D0A62002DD081 /* PaisesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DC633158D0A62002DD081 /* PaisesCell.m */; };
+		6D3DC637158D0A92002DD081 /* PaisesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D3DC636158D0A92002DD081 /* PaisesCell.xib */; };
+		6D3DC640158D0BC8002DD081 /* Argentina.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D3DC63A158D0BC8002DD081 /* Argentina.gif */; };
+		6D3DC642158D0BC8002DD081 /* Chile.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D3DC63C158D0BC8002DD081 /* Chile.gif */; };
+		6D3DC643158D0BC8002DD081 /* Mexico.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D3DC63D158D0BC8002DD081 /* Mexico.gif */; };
+		6D3DC64B158D0D4C002DD081 /* Brazil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3DC649158D0D4C002DD081 /* Brazil.jpg */; };
+		6D3DC64C158D0D4C002DD081 /* Peru.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D3DC64A158D0D4C002DD081 /* Peru.gif */; };
+		6D613BF0158D02490040EE1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D613BEF158D02490040EE1C /* UIKit.framework */; };
+		6D613BF2158D02490040EE1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D613BF1158D02490040EE1C /* Foundation.framework */; };
+		6D613BF4158D02490040EE1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D613BF3158D02490040EE1C /* CoreGraphics.framework */; };
+		6D613BFA158D02490040EE1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D613BF8158D02490040EE1C /* InfoPlist.strings */; };
+		6D613BFC158D02490040EE1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D613BFB158D02490040EE1C /* main.m */; };
+		6D613C00158D024A0040EE1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D613BFF158D024A0040EE1C /* AppDelegate.m */; };
+		6D613C03158D024E0040EE1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D613C02158D024E0040EE1C /* ViewController.m */; };
+		6D613C06158D024E0040EE1C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D613C04158D024E0040EE1C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D3DC632158D0A62002DD081 /* PaisesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaisesCell.h; sourceTree = "<group>"; };
+		6D3DC633158D0A62002DD081 /* PaisesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaisesCell.m; sourceTree = "<group>"; };
+		6D3DC636158D0A92002DD081 /* PaisesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaisesCell.xib; path = TableViewExample/PaisesCell.xib; sourceTree = "<group>"; };
+		6D3DC63A158D0BC8002DD081 /* Argentina.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Argentina.gif; sourceTree = "<group>"; };
+		6D3DC63C158D0BC8002DD081 /* Chile.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Chile.gif; sourceTree = "<group>"; };
+		6D3DC63D158D0BC8002DD081 /* Mexico.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Mexico.gif; sourceTree = "<group>"; };
+		6D3DC649158D0D4C002DD081 /* Brazil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brazil.jpg; sourceTree = "<group>"; };
+		6D3DC64A158D0D4C002DD081 /* Peru.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Peru.gif; sourceTree = "<group>"; };
+		6D613BEB158D02490040EE1C /* TableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D613BEF158D02490040EE1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D613BF1158D02490040EE1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D613BF3158D02490040EE1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6D613BF7158D02490040EE1C /* TableViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewExample-Info.plist"; sourceTree = "<group>"; };
+		6D613BF9158D02490040EE1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D613BFB158D02490040EE1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D613BFD158D024A0040EE1C /* TableViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		6D613BFE158D024A0040EE1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D613BFF158D024A0040EE1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D613C01158D024E0040EE1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D613C02158D024E0040EE1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D613C05158D024E0040EE1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D613BE8158D02490040EE1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D613BF0158D02490040EE1C /* UIKit.framework in Frameworks */,
+				6D613BF2158D02490040EE1C /* Foundation.framework in Frameworks */,
+				6D613BF4158D02490040EE1C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D3DC638158D0B69002DD081 /* flags */ = {
+			isa = PBXGroup;
+			children = (
+				6D3DC649158D0D4C002DD081 /* Brazil.jpg */,
+				6D3DC64A158D0D4C002DD081 /* Peru.gif */,
+				6D3DC63A158D0BC8002DD081 /* Argentina.gif */,
+				6D3DC63C158D0BC8002DD081 /* Chile.gif */,
+				6D3DC63D158D0BC8002DD081 /* Mexico.gif */,
+			);
+			name = flags;
+			sourceTree = "<group>";
+		};
+		6D613BE0158D02490040EE1C = {
+			isa = PBXGroup;
+			children = (
+				6D3DC636158D0A92002DD081 /* PaisesCell.xib */,
+				6D613BF5158D02490040EE1C /* TableViewExample */,
+				6D613BEE158D02490040EE1C /* Frameworks */,
+				6D613BEC158D02490040EE1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D613BEC158D02490040EE1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D613BEB158D02490040EE1C /* TableViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D613BEE158D02490040EE1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D613BEF158D02490040EE1C /* UIKit.framework */,
+				6D613BF1158D02490040EE1C /* Foundation.framework */,
+				6D613BF3158D02490040EE1C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D613BF5158D02490040EE1C /* TableViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				6D3DC638158D0B69002DD081 /* flags */,
+				6D613BFE158D024A0040EE1C /* AppDelegate.h */,
+				6D613BFF158D024A0040EE1C /* AppDelegate.m */,
+				6D613C01158D024E0040EE1C /* ViewController.h */,
+				6D613C02158D024E0040EE1C /* ViewController.m */,
+				6D613C04158D024E0040EE1C /* ViewController.xib */,
+				6D613BF6158D02490040EE1C /* Supporting Files */,
+				6D3DC632158D0A62002DD081 /* PaisesCell.h */,
+				6D3DC633158D0A62002DD081 /* PaisesCell.m */,
+			);
+			path = TableViewExample;
+			sourceTree = "<group>";
+		};
+		6D613BF6158D02490040EE1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D613BF7158D02490040EE1C /* TableViewExample-Info.plist */,
+				6D613BF8158D02490040EE1C /* InfoPlist.strings */,
+				6D613BFB158D02490040EE1C /* main.m */,
+				6D613BFD158D024A0040EE1C /* TableViewExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D613BEA158D02490040EE1C /* TableViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D613C09158D024E0040EE1C /* Build configuration list for PBXNativeTarget "TableViewExample" */;
+			buildPhases = (
+				6D613BE7158D02490040EE1C /* Sources */,
+				6D613BE8158D02490040EE1C /* Frameworks */,
+				6D613BE9158D02490040EE1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewExample;
+			productName = TableViewExample;
+			productReference = 6D613BEB158D02490040EE1C /* TableViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D613BE2158D02490040EE1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6D613BE5158D02490040EE1C /* Build configuration list for PBXProject "TableViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D613BE0158D02490040EE1C;
+			productRefGroup = 6D613BEC158D02490040EE1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D613BEA158D02490040EE1C /* TableViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D613BE9158D02490040EE1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D613BFA158D02490040EE1C /* InfoPlist.strings in Resources */,
+				6D613C06158D024E0040EE1C /* ViewController.xib in Resources */,
+				6D3DC637158D0A92002DD081 /* PaisesCell.xib in Resources */,
+				6D3DC640158D0BC8002DD081 /* Argentina.gif in Resources */,
+				6D3DC642158D0BC8002DD081 /* Chile.gif in Resources */,
+				6D3DC643158D0BC8002DD081 /* Mexico.gif in Resources */,
+				6D3DC64B158D0D4C002DD081 /* Brazil.jpg in Resources */,
+				6D3DC64C158D0D4C002DD081 /* Peru.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D613BE7158D02490040EE1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D613BFC158D02490040EE1C /* main.m in Sources */,
+				6D613C00158D024A0040EE1C /* AppDelegate.m in Sources */,
+				6D613C03158D024E0040EE1C /* ViewController.m in Sources */,
+				6D3DC634158D0A62002DD081 /* PaisesCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D613BF8158D02490040EE1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D613BF9158D02490040EE1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6D613C04158D024E0040EE1C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D613C05158D024E0040EE1C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D613C07158D024E0040EE1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D613C08158D024E0040EE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D613C0A158D024E0040EE1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewExample/TableViewExample-Prefix.pch";
+				INFOPLIST_FILE = "TableViewExample/TableViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6D613C0B158D024E0040EE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewExample/TableViewExample-Prefix.pch";
+				INFOPLIST_FILE = "TableViewExample/TableViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D613BE5158D02490040EE1C /* Build configuration list for PBXProject "TableViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D613C07158D024E0040EE1C /* Debug */,
+				6D613C08158D024E0040EE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D613C09158D024E0040EE1C /* Build configuration list for PBXNativeTarget "TableViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D613C0A158D024E0040EE1C /* Debug */,
+				6D613C0B158D024E0040EE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D613BE2158D02490040EE1C /* Project object */;
+}
