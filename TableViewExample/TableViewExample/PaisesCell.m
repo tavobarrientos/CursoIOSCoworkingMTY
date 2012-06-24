@@ -9,11 +9,13 @@
 #import "PaisesCell.h"
 
 @implementation PaisesCell
+@synthesize pais, population;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
+        [self setAccessoryType:UITableViewCellAccessoryDetailDisclosureButton];
         // Initialization code
     }
     return self;

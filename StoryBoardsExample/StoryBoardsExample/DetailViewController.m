@@ -8,11 +8,8 @@
 
 #import "DetailViewController.h"
 
-@interface DetailViewController ()
-
-@end
-
 @implementation DetailViewController
+@synthesize pais;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,6 +23,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    PaisSeleccionado.text = self.pais;
 	// Do any additional setup after loading the view.
 }
 

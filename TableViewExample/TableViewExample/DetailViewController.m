@@ -13,6 +13,13 @@
 @end
 
 @implementation DetailViewController
+@synthesize pais;
+
+-(IBAction)AcercaAction:(id)sender
+{
+    UIAlertView *alerta = [[UIAlertView alloc]initWithTitle:@"Curso de iOS Coworking Mty (c) 2012" message:@"Aplicacion Demo" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+    [alerta show];
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,6 +33,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    UIBarButtonItem *item = [[UIBarButtonItem alloc]initWithTitle:@"Acerca de..." style:UIBarButtonItemStyleBordered target:self action:@selector(AcercaAction:)];
+    [self.navigationItem setRightBarButtonItem:item];
+    
+    PaisSeleccionado.text = self.pais;
+    self.title = self.pais;
+    
     // Do any additional setup after loading the view from its nib.
 }
 

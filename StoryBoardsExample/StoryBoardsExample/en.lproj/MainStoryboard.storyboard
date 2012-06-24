@@ -1,24 +1,104 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1906" systemVersion="11A511" targetRuntime="iOS.CocoaTouch" nextObjectID="6" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="RnX-tm-k7c">
     <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="902"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
     <scenes>
-        <scene sceneID="5">
+        <!--Paises View Controller - Paises del Mundo-->
+        <scene sceneID="dda-ol-vRw">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
-                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qhd-K8-e2g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="rSJ-ii-T8z" customClass="PaisesViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Hw2-45-mYN">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="6YF-Nu-BkS">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <segue destination="ClP-PC-BK1" kind="push" identifier="DetailView" id="qmn-5m-de3"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="rSJ-ii-T8z" id="9MP-Fi-lVu"/>
+                            <outlet property="delegate" destination="rSJ-ii-T8z" id="WZB-Q8-euz"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Paises del Mundo" id="RrT-eb-ih1"/>
+                    <connections>
+                        <outlet property="tabla" destination="Hw2-45-mYN" id="nfP-G8-Sm2"/>
+                    </connections>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="351" y="-36"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="Qpr-7Y-acq">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uh1-dr-4lI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="ClP-PC-BK1" customClass="DetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ajZ-I7-ISb">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Ix6-6K-90u">
+                                <rect key="frame" x="34" y="195" width="253" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="qiz-0n-73c"/>
+                    <connections>
+                        <outlet property="PaisSeleccionado" destination="Ix6-6K-90u" id="xOP-ex-pll"/>
+                    </connections>
                 </viewController>
             </objects>
+            <point key="canvasLocation" x="812" y="-31"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="AqX-Vj-w8k">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ysi-tp-V3p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="RnX-tm-k7c" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="DoF-zF-Y4a">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="rSJ-ii-T8z" kind="relationship" relationship="rootViewController" id="sxj-X3-aTI"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-55" y="-36"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="DetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="PaisSeleccionado" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="PaisesViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PaisesViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="tabla" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

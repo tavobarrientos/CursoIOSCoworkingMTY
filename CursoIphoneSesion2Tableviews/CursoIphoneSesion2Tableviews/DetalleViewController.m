@@ -13,6 +13,7 @@
 @end
 
 @implementation DetalleViewController
+@synthesize pais;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +28,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    lblPais.text = pais; // Asignarle el texto al Label
+    self.title = pais; // Asignarle el titulo a la ventana
 }
 
 - (void)viewDidUnload

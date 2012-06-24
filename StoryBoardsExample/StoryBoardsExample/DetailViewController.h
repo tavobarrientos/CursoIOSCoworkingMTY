@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface DetailViewController : UIViewController
-
+{
+    IBOutlet UILabel *PaisSeleccionado;
+}
+@property(strong, nonatomic) NSString *pais;
 @end

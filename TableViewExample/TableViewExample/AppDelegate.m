@@ -20,7 +20,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    
+    UINavigationController *controller = [[UINavigationController alloc]initWithRootViewController:self.viewController];
+    [self.viewController setTitle:@"Paises del Mundo"];
+    
+    self.window.rootViewController = controller;
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface PaisesCell : UITableViewCell
-
+@property(strong, nonatomic) IBOutlet UILabel *pais;
+@property(strong, nonatomic) IBOutlet UILabel *population;
 @end

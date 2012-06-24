@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PaisesViewController : UIViewController
+@interface PaisesViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+{
+    NSMutableArray *paises;
+    IBOutlet UITableView *tabla;
+}
 
 @end

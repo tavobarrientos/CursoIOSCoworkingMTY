@@ -7,16 +7,46 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
-
-@end
+#import "DetalleViewController.h"
+#import "PaisesCell.h"
 
 @implementation ViewController
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [paises count];
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSString *cellIdentifier = @"Cell";
+    
+    PaisesCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    
+    if (cell == nil) {
+        NSArray *nib = [[NSBundle mainBundle]loadNibNamed:@"PaisesCell" owner:self options:nil];
+        cell = (PaisesCell *)[nib objectAtIndex:0];
+    }
+    
+    //cell.textLabel.text = [paises objectAtIndex:[indexPath row]];
+    cell.lblPais.text = [[paises objectAtIndex:[indexPath section]] objectAtIndex:[indexPath row]];
+    cell.lblPoblacion.text = @"10000";
+    
+    return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    DetalleViewController *detalle = [[DetalleViewController alloc]initWithNibName:@"DetalleViewController" bundle:nil];
+    detalle.pais = [paises objectAtIndex:[indexPath row]];
+    [self.navigationController pushViewController:detalle animated:YES];
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self setTitle:@"Paises del Mundo"];
+    paises = [NSMutableArray arrayWithObjects:@"Mexico", @"USA", @"Canada", @"Brazil", @"Argentina", @"Chile", nil];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

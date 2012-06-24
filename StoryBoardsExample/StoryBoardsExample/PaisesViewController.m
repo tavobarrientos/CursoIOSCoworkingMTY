@@ -7,12 +7,28 @@
 //
 
 #import "PaisesViewController.h"
-
-@interface PaisesViewController ()
-
-@end
+#import "DetailViewController.h"
 
 @implementation PaisesViewController
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSString *cellIdentifier = @"Cell";
+    UITableViewCell *cell = (UITableViewCell *)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    
+    cell.textLabel.text =[paises objectAtIndex:[indexPath row]];
+    return cell;
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return paises.count;
+}
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,6 +42,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    paises = [NSMutableArray arrayWithObjects:@"Mexico", @"Estados Unidos", @"Canada", @"Brazil", @"Chile", nil];
 	// Do any additional setup after loading the view.
 }
 
@@ -38,6 +55,15 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([[segue identifier] isEqualToString:@"DetailView"]){
+        NSIndexPath *indexPath = [tabla indexPathForSelectedRow];
+        DetailViewController *detail = (DetailViewController *)[segue destinationViewController];
+        detail.pais = [paises objectAtIndex:[indexPath row]];
+    }
 }
 
 @end

@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface DetailViewController : UIViewController
+{
+    IBOutlet UILabel *PaisSeleccionado;
+}
 
+@property(nonatomic, retain)NSString *pais;
+
+
+-(IBAction)AcercaAction:(id)sender;
 @end

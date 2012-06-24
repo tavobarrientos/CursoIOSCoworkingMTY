@@ -15,6 +15,10 @@
 		6D30BD4315965DD200882C9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D30BD4215965DD200882C9A /* AppDelegate.m */; };
 		6D30BD4615965DD200882C9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D30BD4515965DD200882C9A /* ViewController.m */; };
 		6D30BD4915965DD200882C9A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D30BD4715965DD200882C9A /* ViewController.xib */; };
+		6D30BD52159665B200882C9A /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D30BD50159665B200882C9A /* DetalleViewController.m */; };
+		6D30BD53159665B200882C9A /* DetalleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D30BD51159665B200882C9A /* DetalleViewController.xib */; };
+		6D30BD571596702A00882C9A /* PaisesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D30BD561596702A00882C9A /* PaisesCell.m */; };
+		6D30BD591596707200882C9A /* PaisesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D30BD581596707200882C9A /* PaisesCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,21 @@
 		6D30BD3215965DD200882C9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6D30BD3415965DD200882C9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6D30BD3615965DD200882C9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6D30BD3A15965DD200882C9A /* CursoIphoneSesion2Tableviews-Info.plist */ = {isa = PBXFileReference; path = "CursoIphoneSesion2Tableviews-Info.plist"; sourceTree = "<group>"; };
+		6D30BD3A15965DD200882C9A /* CursoIphoneSesion2Tableviews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CursoIphoneSesion2Tableviews-Info.plist"; sourceTree = "<group>"; };
 		6D30BD3C15965DD200882C9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D30BD3E15965DD200882C9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6D30BD4015965DD200882C9A /* CursoIphoneSesion2Tableviews-Prefix.pch */ = {isa = PBXFileReference; path = "CursoIphoneSesion2Tableviews-Prefix.pch"; sourceTree = "<group>"; };
-		6D30BD4115965DD200882C9A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D30BD4015965DD200882C9A /* CursoIphoneSesion2Tableviews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CursoIphoneSesion2Tableviews-Prefix.pch"; sourceTree = "<group>"; };
+		6D30BD4115965DD200882C9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D30BD4215965DD200882C9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6D30BD4415965DD200882C9A /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		6D30BD4415965DD200882C9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6D30BD4515965DD200882C9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6D30BD4815965DD200882C9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6D30BD4F159665B200882C9A /* DetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleViewController.h; sourceTree = "<group>"; };
+		6D30BD50159665B200882C9A /* DetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleViewController.m; sourceTree = "<group>"; };
+		6D30BD51159665B200882C9A /* DetalleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalleViewController.xib; sourceTree = "<group>"; };
+		6D30BD551596702A00882C9A /* PaisesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaisesCell.h; sourceTree = "<group>"; };
+		6D30BD561596702A00882C9A /* PaisesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaisesCell.m; sourceTree = "<group>"; };
+		6D30BD581596707200882C9A /* PaisesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaisesCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +87,16 @@
 		6D30BD3815965DD200882C9A /* CursoIphoneSesion2Tableviews */ = {
 			isa = PBXGroup;
 			children = (
+				6D30BD54159665D100882C9A /* DetalleViewController */,
 				6D30BD4115965DD200882C9A /* AppDelegate.h */,
 				6D30BD4215965DD200882C9A /* AppDelegate.m */,
 				6D30BD4415965DD200882C9A /* ViewController.h */,
 				6D30BD4515965DD200882C9A /* ViewController.m */,
 				6D30BD4715965DD200882C9A /* ViewController.xib */,
 				6D30BD3915965DD200882C9A /* Supporting Files */,
+				6D30BD551596702A00882C9A /* PaisesCell.h */,
+				6D30BD561596702A00882C9A /* PaisesCell.m */,
+				6D30BD581596707200882C9A /* PaisesCell.xib */,
 			);
 			path = CursoIphoneSesion2Tableviews;
 			sourceTree = "<group>";
@@ -96,6 +110,16 @@
 				6D30BD4015965DD200882C9A /* CursoIphoneSesion2Tableviews-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D30BD54159665D100882C9A /* DetalleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D30BD4F159665B200882C9A /* DetalleViewController.h */,
+				6D30BD50159665B200882C9A /* DetalleViewController.m */,
+				6D30BD51159665B200882C9A /* DetalleViewController.xib */,
+			);
+			name = DetalleViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +174,8 @@
 			files = (
 				6D30BD3D15965DD200882C9A /* InfoPlist.strings in Resources */,
 				6D30BD4915965DD200882C9A /* ViewController.xib in Resources */,
+				6D30BD53159665B200882C9A /* DetalleViewController.xib in Resources */,
+				6D30BD591596707200882C9A /* PaisesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +189,8 @@
 				6D30BD3F15965DD200882C9A /* main.m in Sources */,
 				6D30BD4315965DD200882C9A /* AppDelegate.m in Sources */,
 				6D30BD4615965DD200882C9A /* ViewController.m in Sources */,
+				6D30BD52159665B200882C9A /* DetalleViewController.m in Sources */,
+				6D30BD571596702A00882C9A /* PaisesCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

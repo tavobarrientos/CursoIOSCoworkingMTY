@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D3DC634158D0A62002DD081 /* PaisesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DC633158D0A62002DD081 /* PaisesCell.m */; };
-		6D3DC637158D0A92002DD081 /* PaisesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D3DC636158D0A92002DD081 /* PaisesCell.xib */; };
 		6D3DC640158D0BC8002DD081 /* Argentina.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D3DC63A158D0BC8002DD081 /* Argentina.gif */; };
 		6D3DC642158D0BC8002DD081 /* Chile.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D3DC63C158D0BC8002DD081 /* Chile.gif */; };
 		6D3DC643158D0BC8002DD081 /* Mexico.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D3DC63D158D0BC8002DD081 /* Mexico.gif */; };
@@ -22,12 +20,13 @@
 		6D613C00158D024A0040EE1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D613BFF158D024A0040EE1C /* AppDelegate.m */; };
 		6D613C03158D024E0040EE1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D613C02158D024E0040EE1C /* ViewController.m */; };
 		6D613C06158D024E0040EE1C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D613C04158D024E0040EE1C /* ViewController.xib */; };
+		6D78DAF815962437000A820A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D78DAF615962437000A820A /* DetailViewController.m */; };
+		6D78DAF915962437000A820A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D78DAF715962437000A820A /* DetailViewController.xib */; };
+		6D78DB031596307D000A820A /* PaisesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D78DB021596307D000A820A /* PaisesCell.m */; };
+		6D78DB0515963096000A820A /* PaisesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D78DB0415963096000A820A /* PaisesCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6D3DC632158D0A62002DD081 /* PaisesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaisesCell.h; sourceTree = "<group>"; };
-		6D3DC633158D0A62002DD081 /* PaisesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaisesCell.m; sourceTree = "<group>"; };
-		6D3DC636158D0A92002DD081 /* PaisesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaisesCell.xib; path = TableViewExample/PaisesCell.xib; sourceTree = "<group>"; };
 		6D3DC63A158D0BC8002DD081 /* Argentina.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Argentina.gif; sourceTree = "<group>"; };
 		6D3DC63C158D0BC8002DD081 /* Chile.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Chile.gif; sourceTree = "<group>"; };
 		6D3DC63D158D0BC8002DD081 /* Mexico.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Mexico.gif; sourceTree = "<group>"; };
@@ -46,6 +45,12 @@
 		6D613C01158D024E0040EE1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6D613C02158D024E0040EE1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6D613C05158D024E0040EE1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6D78DAF515962437000A820A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6D78DAF615962437000A820A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6D78DAF715962437000A820A /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		6D78DB011596307D000A820A /* PaisesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaisesCell.h; sourceTree = "<group>"; };
+		6D78DB021596307D000A820A /* PaisesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaisesCell.m; sourceTree = "<group>"; };
+		6D78DB0415963096000A820A /* PaisesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaisesCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +82,6 @@
 		6D613BE0158D02490040EE1C = {
 			isa = PBXGroup;
 			children = (
-				6D3DC636158D0A92002DD081 /* PaisesCell.xib */,
 				6D613BF5158D02490040EE1C /* TableViewExample */,
 				6D613BEE158D02490040EE1C /* Frameworks */,
 				6D613BEC158D02490040EE1C /* Products */,
@@ -112,8 +116,12 @@
 				6D613C02158D024E0040EE1C /* ViewController.m */,
 				6D613C04158D024E0040EE1C /* ViewController.xib */,
 				6D613BF6158D02490040EE1C /* Supporting Files */,
-				6D3DC632158D0A62002DD081 /* PaisesCell.h */,
-				6D3DC633158D0A62002DD081 /* PaisesCell.m */,
+				6D78DAF515962437000A820A /* DetailViewController.h */,
+				6D78DAF615962437000A820A /* DetailViewController.m */,
+				6D78DAF715962437000A820A /* DetailViewController.xib */,
+				6D78DB011596307D000A820A /* PaisesCell.h */,
+				6D78DB021596307D000A820A /* PaisesCell.m */,
+				6D78DB0415963096000A820A /* PaisesCell.xib */,
 			);
 			path = TableViewExample;
 			sourceTree = "<group>";
@@ -181,12 +189,13 @@
 			files = (
 				6D613BFA158D02490040EE1C /* InfoPlist.strings in Resources */,
 				6D613C06158D024E0040EE1C /* ViewController.xib in Resources */,
-				6D3DC637158D0A92002DD081 /* PaisesCell.xib in Resources */,
 				6D3DC640158D0BC8002DD081 /* Argentina.gif in Resources */,
 				6D3DC642158D0BC8002DD081 /* Chile.gif in Resources */,
 				6D3DC643158D0BC8002DD081 /* Mexico.gif in Resources */,
 				6D3DC64B158D0D4C002DD081 /* Brazil.jpg in Resources */,
 				6D3DC64C158D0D4C002DD081 /* Peru.gif in Resources */,
+				6D78DAF915962437000A820A /* DetailViewController.xib in Resources */,
+				6D78DB0515963096000A820A /* PaisesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +209,8 @@
 				6D613BFC158D02490040EE1C /* main.m in Sources */,
 				6D613C00158D024A0040EE1C /* AppDelegate.m in Sources */,
 				6D613C03158D024E0040EE1C /* ViewController.m in Sources */,
-				6D3DC634158D0A62002DD081 /* PaisesCell.m in Sources */,
+				6D78DAF815962437000A820A /* DetailViewController.m in Sources */,
+				6D78DB031596307D000A820A /* PaisesCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

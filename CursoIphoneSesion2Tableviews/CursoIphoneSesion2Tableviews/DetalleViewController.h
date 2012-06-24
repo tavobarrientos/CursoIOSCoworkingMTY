@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface DetalleViewController : UIViewController
+{
+    IBOutlet UILabel *lblPais;
+}
+
+@property(nonatomic, retain) NSString *pais;
 
 @end

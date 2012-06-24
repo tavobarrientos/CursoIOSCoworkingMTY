@@ -14,7 +14,8 @@
 		6D78DB2215963621000A820A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D78DB2115963621000A820A /* main.m */; };
 		6D78DB2615963621000A820A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D78DB2515963621000A820A /* AppDelegate.m */; };
 		6D78DB2915963621000A820A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D78DB2715963621000A820A /* MainStoryboard.storyboard */; };
-		6D78DB2C15963621000A820A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D78DB2B15963621000A820A /* ViewController.m */; };
+		6D78DB3715963802000A820A /* PaisesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D78DB3615963802000A820A /* PaisesViewController.m */; };
+		6D78DB3A15963A8A000A820A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D78DB3915963A8A000A820A /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		6D78DB1515963621000A820A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6D78DB1715963621000A820A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6D78DB1915963621000A820A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6D78DB1D15963621000A820A /* StoryBoardsExample-Info.plist */ = {isa = PBXFileReference; path = "StoryBoardsExample-Info.plist"; sourceTree = "<group>"; };
+		6D78DB1D15963621000A820A /* StoryBoardsExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBoardsExample-Info.plist"; sourceTree = "<group>"; };
 		6D78DB1F15963621000A820A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D78DB2115963621000A820A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6D78DB2315963621000A820A /* StoryBoardsExample-Prefix.pch */ = {isa = PBXFileReference; path = "StoryBoardsExample-Prefix.pch"; sourceTree = "<group>"; };
-		6D78DB2415963621000A820A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D78DB2315963621000A820A /* StoryBoardsExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryBoardsExample-Prefix.pch"; sourceTree = "<group>"; };
+		6D78DB2415963621000A820A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D78DB2515963621000A820A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6D78DB2815963621000A820A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		6D78DB2A15963621000A820A /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		6D78DB2B15963621000A820A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D78DB3515963802000A820A /* PaisesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaisesViewController.h; sourceTree = "<group>"; };
+		6D78DB3615963802000A820A /* PaisesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaisesViewController.m; sourceTree = "<group>"; };
+		6D78DB3815963A8A000A820A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6D78DB3915963A8A000A820A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +83,11 @@
 				6D78DB2415963621000A820A /* AppDelegate.h */,
 				6D78DB2515963621000A820A /* AppDelegate.m */,
 				6D78DB2715963621000A820A /* MainStoryboard.storyboard */,
-				6D78DB2A15963621000A820A /* ViewController.h */,
-				6D78DB2B15963621000A820A /* ViewController.m */,
 				6D78DB1C15963621000A820A /* Supporting Files */,
+				6D78DB3515963802000A820A /* PaisesViewController.h */,
+				6D78DB3615963802000A820A /* PaisesViewController.m */,
+				6D78DB3815963A8A000A820A /* DetailViewController.h */,
+				6D78DB3915963A8A000A820A /* DetailViewController.m */,
 			);
 			path = StoryBoardsExample;
 			sourceTree = "<group>";
@@ -162,7 +167,8 @@
 			files = (
 				6D78DB2215963621000A820A /* main.m in Sources */,
 				6D78DB2615963621000A820A /* AppDelegate.m in Sources */,
-				6D78DB2C15963621000A820A /* ViewController.m in Sources */,
+				6D78DB3715963802000A820A /* PaisesViewController.m in Sources */,
+				6D78DB3A15963A8A000A820A /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
