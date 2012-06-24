@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D30BD3315965DD200882C9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D30BD3215965DD200882C9A /* UIKit.framework */; };
+		6D30BD3515965DD200882C9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D30BD3415965DD200882C9A /* Foundation.framework */; };
+		6D30BD3715965DD200882C9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D30BD3615965DD200882C9A /* CoreGraphics.framework */; };
+		6D30BD3D15965DD200882C9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D30BD3B15965DD200882C9A /* InfoPlist.strings */; };
+		6D30BD3F15965DD200882C9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D30BD3E15965DD200882C9A /* main.m */; };
+		6D30BD4315965DD200882C9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D30BD4215965DD200882C9A /* AppDelegate.m */; };
+		6D30BD4615965DD200882C9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D30BD4515965DD200882C9A /* ViewController.m */; };
+		6D30BD4915965DD200882C9A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D30BD4715965DD200882C9A /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D30BD2E15965DD200882C9A /* CursoIphoneSesion2Tableviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoIphoneSesion2Tableviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D30BD3215965DD200882C9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D30BD3415965DD200882C9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D30BD3615965DD200882C9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6D30BD3A15965DD200882C9A /* CursoIphoneSesion2Tableviews-Info.plist */ = {isa = PBXFileReference; path = "CursoIphoneSesion2Tableviews-Info.plist"; sourceTree = "<group>"; };
+		6D30BD3C15965DD200882C9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D30BD3E15965DD200882C9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D30BD4015965DD200882C9A /* CursoIphoneSesion2Tableviews-Prefix.pch */ = {isa = PBXFileReference; path = "CursoIphoneSesion2Tableviews-Prefix.pch"; sourceTree = "<group>"; };
+		6D30BD4115965DD200882C9A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D30BD4215965DD200882C9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D30BD4415965DD200882C9A /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		6D30BD4515965DD200882C9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D30BD4815965DD200882C9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D30BD2B15965DD200882C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D30BD3315965DD200882C9A /* UIKit.framework in Frameworks */,
+				6D30BD3515965DD200882C9A /* Foundation.framework in Frameworks */,
+				6D30BD3715965DD200882C9A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D30BD2315965DD200882C9A = {
+			isa = PBXGroup;
+			children = (
+				6D30BD3815965DD200882C9A /* CursoIphoneSesion2Tableviews */,
+				6D30BD3115965DD200882C9A /* Frameworks */,
+				6D30BD2F15965DD200882C9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D30BD2F15965DD200882C9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D30BD2E15965DD200882C9A /* CursoIphoneSesion2Tableviews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D30BD3115965DD200882C9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D30BD3215965DD200882C9A /* UIKit.framework */,
+				6D30BD3415965DD200882C9A /* Foundation.framework */,
+				6D30BD3615965DD200882C9A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D30BD3815965DD200882C9A /* CursoIphoneSesion2Tableviews */ = {
+			isa = PBXGroup;
+			children = (
+				6D30BD4115965DD200882C9A /* AppDelegate.h */,
+				6D30BD4215965DD200882C9A /* AppDelegate.m */,
+				6D30BD4415965DD200882C9A /* ViewController.h */,
+				6D30BD4515965DD200882C9A /* ViewController.m */,
+				6D30BD4715965DD200882C9A /* ViewController.xib */,
+				6D30BD3915965DD200882C9A /* Supporting Files */,
+			);
+			path = CursoIphoneSesion2Tableviews;
+			sourceTree = "<group>";
+		};
+		6D30BD3915965DD200882C9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D30BD3A15965DD200882C9A /* CursoIphoneSesion2Tableviews-Info.plist */,
+				6D30BD3B15965DD200882C9A /* InfoPlist.strings */,
+				6D30BD3E15965DD200882C9A /* main.m */,
+				6D30BD4015965DD200882C9A /* CursoIphoneSesion2Tableviews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D30BD2D15965DD200882C9A /* CursoIphoneSesion2Tableviews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D30BD4C15965DD200882C9A /* Build configuration list for PBXNativeTarget "CursoIphoneSesion2Tableviews" */;
+			buildPhases = (
+				6D30BD2A15965DD200882C9A /* Sources */,
+				6D30BD2B15965DD200882C9A /* Frameworks */,
+				6D30BD2C15965DD200882C9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CursoIphoneSesion2Tableviews;
+			productName = CursoIphoneSesion2Tableviews;
+			productReference = 6D30BD2E15965DD200882C9A /* CursoIphoneSesion2Tableviews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D30BD2515965DD200882C9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6D30BD2815965DD200882C9A /* Build configuration list for PBXProject "CursoIphoneSesion2Tableviews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D30BD2315965DD200882C9A;
+			productRefGroup = 6D30BD2F15965DD200882C9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D30BD2D15965DD200882C9A /* CursoIphoneSesion2Tableviews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D30BD2C15965DD200882C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D30BD3D15965DD200882C9A /* InfoPlist.strings in Resources */,
+				6D30BD4915965DD200882C9A /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D30BD2A15965DD200882C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D30BD3F15965DD200882C9A /* main.m in Sources */,
+				6D30BD4315965DD200882C9A /* AppDelegate.m in Sources */,
+				6D30BD4615965DD200882C9A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D30BD3B15965DD200882C9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D30BD3C15965DD200882C9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6D30BD4715965DD200882C9A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D30BD4815965DD200882C9A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D30BD4A15965DD200882C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D30BD4B15965DD200882C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D30BD4D15965DD200882C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CursoIphoneSesion2Tableviews/CursoIphoneSesion2Tableviews-Prefix.pch";
+				INFOPLIST_FILE = "CursoIphoneSesion2Tableviews/CursoIphoneSesion2Tableviews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6D30BD4E15965DD200882C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CursoIphoneSesion2Tableviews/CursoIphoneSesion2Tableviews-Prefix.pch";
+				INFOPLIST_FILE = "CursoIphoneSesion2Tableviews/CursoIphoneSesion2Tableviews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D30BD2815965DD200882C9A /* Build configuration list for PBXProject "CursoIphoneSesion2Tableviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D30BD4A15965DD200882C9A /* Debug */,
+				6D30BD4B15965DD200882C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D30BD4C15965DD200882C9A /* Build configuration list for PBXNativeTarget "CursoIphoneSesion2Tableviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D30BD4D15965DD200882C9A /* Debug */,
+				6D30BD4E15965DD200882C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D30BD2515965DD200882C9A /* Project object */;
+}

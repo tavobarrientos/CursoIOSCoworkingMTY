@@ -1,5 +1,5 @@
 //
-//  PaisesCell.h
+//  DetailViewController.h
 //  TableViewExample
 //
 //  Created by Houzze Gustavo de Jesus Barrientos Guerrero on 23/06/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PaisesCell : UITableViewCell
+@interface DetailViewController : UIViewController
 
 @end
