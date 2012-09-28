@@ -13,5 +13,9 @@
     NSMutableArray *paises;
     IBOutlet UITableView *tabla;
 }
+@property(strong, nonatomic, readonly)NSManagedObjectContext *context;
 
+-(IBAction)BtnAcercaAction:(id)sender;
+
+-(void)LoadData;
 @end

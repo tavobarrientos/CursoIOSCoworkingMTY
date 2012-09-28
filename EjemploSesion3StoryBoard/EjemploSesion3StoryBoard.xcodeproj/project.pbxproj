@@ -14,7 +14,11 @@
 		6D81A9EC159F9C68003307F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81A9EB159F9C68003307F2 /* main.m */; };
 		6D81A9F0159F9C68003307F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81A9EF159F9C68003307F2 /* AppDelegate.m */; };
 		6D81A9F3159F9C68003307F2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D81A9F1159F9C68003307F2 /* MainStoryboard.storyboard */; };
-		6D81A9F6159F9C68003307F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81A9F5159F9C68003307F2 /* ViewController.m */; };
+		6D81A9FE159F9DB3003307F2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81A9FD159F9DB3003307F2 /* MainViewController.m */; };
+		6D81AA01159FA195003307F2 /* PaisesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81AA00159FA195003307F2 /* PaisesCell.m */; };
+		6D81AA04159FA372003307F2 /* DetallePaisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81AA03159FA372003307F2 /* DetallePaisViewController.m */; };
+		6D81AA08159FAAC4003307F2 /* Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D81AA06159FAAC4003307F2 /* Example.xcdatamodeld */; };
+		6D81AA0B159FAB4E003307F2 /* Pais.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D81AA0A159FAB4E003307F2 /* Pais.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,22 @@
 		6D81A9DF159F9C68003307F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6D81A9E1159F9C68003307F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6D81A9E3159F9C68003307F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6D81A9E7159F9C68003307F2 /* EjemploSesion3StoryBoard-Info.plist */ = {isa = PBXFileReference; path = "EjemploSesion3StoryBoard-Info.plist"; sourceTree = "<group>"; };
+		6D81A9E7159F9C68003307F2 /* EjemploSesion3StoryBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EjemploSesion3StoryBoard-Info.plist"; sourceTree = "<group>"; };
 		6D81A9E9159F9C68003307F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D81A9EB159F9C68003307F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6D81A9ED159F9C68003307F2 /* EjemploSesion3StoryBoard-Prefix.pch */ = {isa = PBXFileReference; path = "EjemploSesion3StoryBoard-Prefix.pch"; sourceTree = "<group>"; };
-		6D81A9EE159F9C68003307F2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D81A9ED159F9C68003307F2 /* EjemploSesion3StoryBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EjemploSesion3StoryBoard-Prefix.pch"; sourceTree = "<group>"; };
+		6D81A9EE159F9C68003307F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D81A9EF159F9C68003307F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6D81A9F2159F9C68003307F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		6D81A9F4159F9C68003307F2 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		6D81A9F5159F9C68003307F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D81A9FC159F9DB3003307F2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6D81A9FD159F9DB3003307F2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6D81A9FF159FA195003307F2 /* PaisesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaisesCell.h; sourceTree = "<group>"; };
+		6D81AA00159FA195003307F2 /* PaisesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaisesCell.m; sourceTree = "<group>"; };
+		6D81AA02159FA372003307F2 /* DetallePaisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetallePaisViewController.h; sourceTree = "<group>"; };
+		6D81AA03159FA372003307F2 /* DetallePaisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetallePaisViewController.m; sourceTree = "<group>"; };
+		6D81AA07159FAAC4003307F2 /* Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Example.xcdatamodel; sourceTree = "<group>"; };
+		6D81AA09159FAB4E003307F2 /* Pais.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pais.h; sourceTree = "<group>"; };
+		6D81AA0A159FAB4E003307F2 /* Pais.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pais.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +88,17 @@
 		6D81A9E5159F9C68003307F2 /* EjemploSesion3StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				6D81AA05159FAAA9003307F2 /* CoreDataModel */,
 				6D81A9EE159F9C68003307F2 /* AppDelegate.h */,
 				6D81A9EF159F9C68003307F2 /* AppDelegate.m */,
 				6D81A9F1159F9C68003307F2 /* MainStoryboard.storyboard */,
-				6D81A9F4159F9C68003307F2 /* ViewController.h */,
-				6D81A9F5159F9C68003307F2 /* ViewController.m */,
 				6D81A9E6159F9C68003307F2 /* Supporting Files */,
+				6D81A9FC159F9DB3003307F2 /* MainViewController.h */,
+				6D81A9FD159F9DB3003307F2 /* MainViewController.m */,
+				6D81A9FF159FA195003307F2 /* PaisesCell.h */,
+				6D81AA00159FA195003307F2 /* PaisesCell.m */,
+				6D81AA02159FA372003307F2 /* DetallePaisViewController.h */,
+				6D81AA03159FA372003307F2 /* DetallePaisViewController.m */,
 			);
 			path = EjemploSesion3StoryBoard;
 			sourceTree = "<group>";
@@ -96,6 +112,16 @@
 				6D81A9ED159F9C68003307F2 /* EjemploSesion3StoryBoard-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D81AA05159FAAA9003307F2 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				6D81AA06159FAAC4003307F2 /* Example.xcdatamodeld */,
+				6D81AA09159FAB4E003307F2 /* Pais.h */,
+				6D81AA0A159FAB4E003307F2 /* Pais.m */,
+			);
+			name = CoreDataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +188,11 @@
 			files = (
 				6D81A9EC159F9C68003307F2 /* main.m in Sources */,
 				6D81A9F0159F9C68003307F2 /* AppDelegate.m in Sources */,
-				6D81A9F6159F9C68003307F2 /* ViewController.m in Sources */,
+				6D81A9FE159F9DB3003307F2 /* MainViewController.m in Sources */,
+				6D81AA01159FA195003307F2 /* PaisesCell.m in Sources */,
+				6D81AA04159FA372003307F2 /* DetallePaisViewController.m in Sources */,
+				6D81AA08159FAAC4003307F2 /* Example.xcdatamodeld in Sources */,
+				6D81AA0B159FAB4E003307F2 /* Pais.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +306,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6D81AA06159FAAC4003307F2 /* Example.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6D81AA07159FAAC4003307F2 /* Example.xcdatamodel */,
+			);
+			currentVersion = 6D81AA07159FAAC4003307F2 /* Example.xcdatamodel */;
+			path = Example.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6D81A9D2159F9C68003307F2 /* Project object */;
 }

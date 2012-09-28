@@ -7,12 +7,56 @@
 //
 
 #import "AgregarViewController.h"
+#import "Paises.h"
+
+#import "AppDelegate.h"
 
 @interface AgregarViewController ()
 
 @end
 
 @implementation AgregarViewController
+
+
+-(BOOL)ValidarTabla
+{
+    if(pais.text == @"" || pop.text == @"")
+        return YES;
+    
+    return NO;
+}
+
+-(IBAction)cancel:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+-(IBAction)done:(id)sender
+{
+    if([self ValidarTabla])
+    {
+        UIAlertView *alerta = [[UIAlertView alloc]initWithTitle:@"Alerta!" message:@"Los datos no estan completos" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+        [alerta  show];
+    }
+    else
+    {
+        NSManagedObjectContext *context = [(AppDelegate *)[[UIApplication sharedApplication]delegate]  managedObjectContext];
+        Paises *entity = (Paises *)[NSEntityDescription insertNewObjectForEntityForName:@"Paises" inManagedObjectContext:context];
+        entity.pais = [pais text];
+        entity.population = [pop text];
+        
+        NSError *error;
+        
+        if([context save:&error])
+        {
+            [self dismissViewControllerAnimated:YES completion: nil];
+            NSLog(@"Guardado un pais");
+        }
+        else 
+        {
+            NSLog(@"Ni Madres");
+        }
+    }
+}
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -46,82 +90,17 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-#pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+    if(indexPath.section == 0)
+        [pais becomeFirstResponder];
+               
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    
-    // Configure the cell...
-    
-    return cell;
-}
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
+    [textField resignFirstResponder];
     return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-#pragma mark - Table view delegate
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
 }
 
 @end

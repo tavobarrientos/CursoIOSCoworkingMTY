@@ -10,4 +10,7 @@
 
 @interface PaisesCell : UITableViewCell
 
+@property(nonatomic, retain) IBOutlet UILabel *Pais;
+@property(nonatomic, retain) IBOutlet UILabel *Poblacion;
+
 @end

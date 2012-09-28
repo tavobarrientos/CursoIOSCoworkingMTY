@@ -7,6 +7,8 @@
 //
 
 #import "MainViewController.h"
+#import "PaisesCell.h"
+#import "DetallePaisViewController.h"
 
 @interface MainViewController ()
 
@@ -50,25 +52,25 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return 10;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    PaisesCell *cell = (PaisesCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     // Configure the cell...
-    
+    [cell.lblPais setText:@"Mexico"];
+    [cell.lblPopulation setText:@"10000"];
+    //[cell.textLabel setText:@"Hola"];
     return cell;
 }
 
@@ -122,6 +124,17 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"PushDetailView"]) {
+        //NSIndexPath *indexPath = [table indexPathForSelectedRow];
+        
+        DetallePaisViewController *detail = (DetallePaisViewController *)[segue destinationViewController];
+        detail.Pais = @"Mexico";
+        detail.Poblacion = @"10000";
+    }
 }
 
 @end

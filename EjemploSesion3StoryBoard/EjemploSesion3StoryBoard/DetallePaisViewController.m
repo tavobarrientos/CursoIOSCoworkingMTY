@@ -13,6 +13,7 @@
 @end
 
 @implementation DetallePaisViewController
+@synthesize Pais, Poblacion;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,6 +27,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    lblPais.text = Pais;
+    lblPop.text = Poblacion;
 	// Do any additional setup after loading the view.
 }
 

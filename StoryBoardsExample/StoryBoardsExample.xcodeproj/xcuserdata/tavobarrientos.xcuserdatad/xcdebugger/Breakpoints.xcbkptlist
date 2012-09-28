@@ -4,16 +4,29 @@
    version = "1.0">
    <FileBreakpoints>
       <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "StoryBoardsExample/CoreDataHelper.m"
+         timestampString = "362774679.532716"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "21"
+         endingLineNumber = "21"
+         landmarkName = "+searchObjectsForEntity:withPredicate:andSortKey:andSortAscending:andContext:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "StoryBoardsExample/PaisesViewController.m"
-         timestampString = "362168757.160456"
+         filePath = "StoryBoardsExample/AppDelegate.m"
+         timestampString = "362774784.317457"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "62"
          endingLineNumber = "62"
-         landmarkName = "-prepareForSegue:sender:"
+         landmarkName = "-managedObjectContext"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

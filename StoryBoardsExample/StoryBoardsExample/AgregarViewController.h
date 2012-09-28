@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AgregarViewController : UITableViewController
+@interface AgregarViewController : UITableViewController<UITextFieldDelegate>
+{
+    IBOutlet UITextField *pais;
+    IBOutlet UITextField *pop;
+}
+-(IBAction)cancel:(id)sender;
+-(IBAction)done:(id)sender;
 
+-(BOOL)ValidarTabla;
 @end

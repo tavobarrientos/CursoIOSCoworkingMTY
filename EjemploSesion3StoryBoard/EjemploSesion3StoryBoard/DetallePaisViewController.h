@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface DetallePaisViewController : UIViewController
-
+{
+    IBOutlet UILabel *lblPais;
+    IBOutlet UILabel *lblPop;
+}
+@property(nonatomic, retain) NSString *Pais;
+@property(nonatomic, retain) NSString *Poblacion;
 @end

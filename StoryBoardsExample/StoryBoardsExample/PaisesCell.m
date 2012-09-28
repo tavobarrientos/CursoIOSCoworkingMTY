@@ -9,6 +9,7 @@
 #import "PaisesCell.h"
 
 @implementation PaisesCell
+@synthesize Pais, Poblacion;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

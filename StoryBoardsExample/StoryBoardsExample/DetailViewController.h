@@ -13,4 +13,5 @@
     IBOutlet UILabel *PaisSeleccionado;
 }
 @property(strong, nonatomic) NSString *pais;
+
 @end

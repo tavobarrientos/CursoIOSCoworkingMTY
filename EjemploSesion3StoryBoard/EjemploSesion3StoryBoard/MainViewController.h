@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UITableViewController
+@interface MainViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource>
+{
+    IBOutlet UITableView *table;
+}
 
 @end
